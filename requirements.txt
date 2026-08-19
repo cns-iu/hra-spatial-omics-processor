@@ -1,0 +1,12 @@
+zarr>3
+rich
+s3fs
+numpy
+pandas
+ipython
+tqdm
+dotenv
+scikit-image
+requests
+duckdb-cli
+duckdb

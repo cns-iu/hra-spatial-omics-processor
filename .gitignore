@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom ignores
+log.txt
+.vscode
+.venv
+.env
+
+output-data/*.zarr.zip
+output-data/spatial-cells-ftus.csv
+output-data/hubmap-spatial-cells-ftus.csv
+output-data/hubmap-mirror-ftu*

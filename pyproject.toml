@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hra-soproc"
+dynamic = ["version", "dependencies"]
+description = 'HRA SOProc'
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = ["spatial omics"]
+authors = [
+  { name = "Bruce W. Herr II", email = "bherr@iu.edu" },
+  { name = "Ross W. Barnowski", email = "rossbar@caltech.edu" },
+]
+maintainers = [
+  { name = "Bruce W. Herr II", email = "bherr@iu.edu" },
+]
+
+[project.urls]
+Homepage = "https://github.com/cns-iu/hra-spatial-omics-processor"
+Documentation = "https://github.com/cns-iu/hra-spatial-omics-processor"
+Repository = "https://github.com/cns-iu/hra-spatial-omics-processor.git"
+Issues = "https://github.com/cns-iu/hra-spatial-omics-processor/issues"
+Changelog = "https://github.com/cns-iu/hra-spatial-omics-processor/blob/main/CHANGELOG.md"
+
+
+[tool.hatch.version]
+path = "hra_soproc/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["hra_soproc"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[project.scripts]
+download-store = "hra_soproc.cli.download_store:main"
+get-dataset-info = "hra_soproc.cli.get_dataset_info:main"
+get-cells-ftu-data = "hra_soproc.cli.get_cells_ftu_data:main"
+get-ct-lookup = "hra_soproc.cli.get_ct_lookup:main"
+derive-cde-data = "hra_soproc.cli.derive_cde_data:main"

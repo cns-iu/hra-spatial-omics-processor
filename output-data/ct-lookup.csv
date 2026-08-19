@@ -1,0 +1,42 @@
+label,cl_id,cl_label
+Acinar,CL:0000622,acinar cell
+Astrocyte,CL:0000127,astrocyte
+Bcell,CL:0000236,B cell
+BloodVesselEndothelial,CL:0000071,blood vessel endothelial cell
+CD4T,CL:0000624,"CD4-positive, alpha-beta T cell"
+CD8T,CL:0000625,"CD8-positive, alpha-beta T cell"
+Dendritic,CL:0000451,dendritic cell
+Endocrine,CL:0000163,endocrine cell
+Endothelial,CL:0000115,endothelial cell
+Enterocyte,CL:0000584,enterocyte
+Epithelial,CL:0000066,epithelial cell
+EVT,CL:0008036,extravillous trophoblast
+Fibroblast,CL:0000057,fibroblast
+Goblet,CL:0000160,goblet cell
+Granulocyte,CL:0000094,granulocyte
+ICC,CL:0002088,interstitial cell of Cajal
+LymphaticEndothelial,CL:0002138,endothelial cell of lymphatic vessel
+Lymphocyte,CL:0000542,lymphocyte
+Macrophage,CL:0000235,macrophage
+M1Macrophage,CL:0000863,inflammatory macrophage
+M2Macrophage,CL:0000890,alternatively activated macrophage
+Mast,CL:0000097,mast cell
+Monocyte,CL:0000576,monocyte
+Myoepithelial,CL:0000185,myoepithelial cell
+Myofibroblast,CL:0000186,myofibroblast cell
+Nerve,CL:0000540,neuron
+Neuroendocrine,CL:0000165,neuroendocrine cell
+Neuron,CL:0000540,neuron
+Neutrophil,CL:0000775,neutrophil
+NK,CL:0000623,natural killer cell
+NKT,CL:0000814,mature NK T cell
+Paneth,CL:0000510,paneth cell
+Plasma,CL:0000786,plasma cell
+SmoothMuscle,CL:0000192,smooth muscle cell
+Stromal,CL:0000499,stromal cell
+Tcell,CL:0000084,T cell
+TransitAmplifying,CL:0009010,transit amplifying cell
+Treg,CL:0000815,regulatory T cell
+Tumor,CL:0001063,neoplastic cell
+Myeloid,CL:0000763,myeloid cell
+GiantCell,CL:0000000,cell
